@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI Light';
+}
+
+.product {
+    position: relative;
+}
+.product img{
+    height: 280px;
+    width: 100%;
+}
+
+.sale{
+    background-color: tomato;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+.btn-info , .btn-warning{
+    color: white;
+}
+
+.btn-info:hover , .btn-info:active , .btn-info:focus , .btn-warning:hover , .btn-warning:active , .btn-warning:focus{
+    color: white;
+}
+
+
+
+.form-check-input:checked {
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    box-shadow: none;
+}
+.form-check-input:focus{
+    box-shadow: none;
+}
